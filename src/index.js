@@ -13,9 +13,9 @@ let ctr = new Controller();
 
 var guiData = {
   targetY: GROUND_Y / 2,
-  k_p: 0.6,
-  k_d: 0.05,
-  k_i: 0.1,
+  k_p: 2.0,
+  k_d: 1.0,
+  k_i: 0.5,
 };
 
 let force = { x: 0, y: 0 };
