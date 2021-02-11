@@ -133,9 +133,9 @@ Events.on(engine, "beforeUpdate", function (event) {
 });
 
 var gui = new dat.GUI();
-gui.add(guiData, "k_p").min(0).max(1);
-gui.add(guiData, "k_i").min(0).max(1);
-gui.add(guiData, "k_d").min(0).max(0.1);
+gui.add(guiData, "k_p").min(0).max(5);
+gui.add(guiData, "k_i").min(0).max(5);
+gui.add(guiData, "k_d").min(0).max(1);
 
 // const mouse = Matter.Mouse.create(render.canvas);
 // const mouseConstraint = Matter.MouseConstraint.create(engine, {
